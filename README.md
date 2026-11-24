@@ -36,8 +36,8 @@
 La consulta pública a CoinGecko utilizada en la aplicación no requiere clave secreta. Opcionalmente se puede definir `VITE_APP_NAME` en un archivo `.env` local (ver `.env.example`). No se versionan archivos `.env` con credenciales.
 
 ## Enlaces de Publicación
-- **Repositorio de GitHub:** `[COMPLETAR_CON_URL_DEL_REPOSITORIO_GITHUB]`
-- **Aplicación desplegada en Vercel:** `[COMPLETAR_CON_URL_PUBLICA_DE_VERCEL]`
+- **Repositorio de GitHub:** `https://github.com/gigenaMatias/PulsoAbierto.git`
+- **Aplicación desplegada en Vercel:** `https://pulso-abierto-ten.vercel.app`
 
 ## Mejora de Mantenibilidad Aplicada
 - **Problema identificado:** El formato monetario en USD (`toLocaleString('en-US', { minimumFractionDigits: 2 })`) se repetía directamente en componentes de presentación (`CryptoCard.tsx` y `DetailPage.tsx`).
@@ -48,5 +48,5 @@ La consulta pública a CoinGecko utilizada en la aplicación no requiere clave s
 - **Pruebas ejecutadas:** `npm test` (Vitest + Testing Library)
 - **Build generado correctamente:** `npm run build` (`tsc && vite build` -> `dist/`)
 - **Preview comprobado:** `npm run preview` (carga inicial, consulta de precios, navegación a detalle y regreso, favoritos persistentes y validación de formulario)
-- **Despliegue realizado:** Publicado en Vercel vinculado al repositorio de GitHub (`[COMPLETAR_CON_URL_PUBLICA_DE_VERCEL]`)
+- **Despliegue realizado:** Publicado en Vercel vinculado al repositorio de GitHub (`https://pulso-abierto-ten.vercel.app`)
 - **Fecha de verificación:** 24 de noviembre de 2026
